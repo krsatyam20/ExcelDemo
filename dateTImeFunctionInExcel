@@ -1,0 +1,66 @@
+Date Time  And Math 
+=DATE(2015, 5, 20) - returns a serial number corresponding to 20-May-2015.
+
+=DATE(YEAR(TODAY()), MONTH(TODAY()), 1) - returns the first day of the current year and month.
+
+=DATE(2015, 5, 20)-5 - subtracts 5 days from May 20, 2015	
+
+=TODAY()
+
+=TODAY()+7 Add 7 Days today`s date
+
+=WORKDAY(TODAY(), 30) Add 30 workdays to today`s date excluding weekend days
+
+=NOW() function returns the current date and time.
+
+=DATEVALUE(date_text) converts a date in the text format to a serial number
+
+=DATEVALUE("20-may-2015")
+
+=TEXT(A2, "d-mmm-yy")
+
+=DAY(A2) - returns the day of the date in A2
+
+=DAY(DATE(2015,1,1)) - returns the day of 1-Jan-2015
+
+=DAY(TODAY()) - returns the day of today's date 
+
+=MONTH(A2) - returns the month of a date in cell A2.
+
+=MONTH(TODAY()) - returns the current month.
+
+
+=YEAR(A2) - returns the year of a date in cell A2.
+
+=YEAR("20-May-2015") - returns the year of the specified date.
+
+=YEAR(DATE(2015,5,20)) - a more reliable method to get the year of a given date.
+
+=YEAR(TODAY()) - returns the current year.
+
+=EOMONTH(A2, 3) - returns the last day of the month, 3 months after the date.
+
+=EOMONTH(A2, -3) - returns the last day of the month 3 months before the date
+
+=EOMONTH(DATE(2015,4,15), 0) - returns the last day in April, 2015.
+
+DATEDIF(start_date, end_date, unit) function is specially designed to calculate the difference between two dates in days, months or years.
+
+=DATEDIF(A2, TODAY(), "d") - calculates the number of days between the date .
+
+=DATEDIF(A2, A5, "m") - returns the number of complete months between the dates.
+
+=DATEDIF(A2, A5, "y") - returns the number of complete years between the dates.
+
+EDATE(start_date, months)
+
+=EDATE(A2, 5) - adds 5 months to the date.
+
+=EDATE(TODAY(), -5) - subtracts 5 months from today's date.
+
+=ROUND(number, number_of_digits)
+INT(decimal number)
+ABS(-25):return the absolute value of a given number 25
+ARABIC(): convert roman numeral to arabic
+
+https://exceljet.net/
